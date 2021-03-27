@@ -1,6 +1,7 @@
 # go-utils
 
-[![codecov](https://codecov.io/gh/yiranzai/go-utils/branch/master/graph/badge.svg)](https://codecov.io/gh/yiranzai/go-utils)
+[![codecov](https://codecov.io/gh/yiranzai/go-utils/branch/main/graph/badge.svg)](https://codecov.
+io/gh/yiranzai/go-utils)
 [![Go Report Card](https://goreportcard.com/badge/github.com/yiranzai/go-utils)](https://goreportcard.com/report/github.com/yiranzai/go-utils)
 [![Sourcegraph](https://sourcegraph.com/github.com/yiranzai/go-utils/-/badge.svg)](https://sourcegraph.com/github.com/yiranzai/go-utils?badge)
 [![Open Source Helpers](https://www.codetriage.com/yiranzai/go-utils/badges/users.svg)](https://www.codetriage.com/yiranzai/go-utils)
