@@ -14,14 +14,15 @@ Golang utils for me.
 ---
 
 <!--ts-->
+   * [go-utils](#go-utils)
+      * [目录](#目录)
+      * [Install](#install)
+      * [Usage](#usage)
+         * [Math](#math)
+         * [Leetcode](#leetcode)
+      * [License](#license)
 
-- [go-utils](#go-utils)
-    - [Install](#install)
-    - [Usage](#usage)
-        - [Math](#math)
-    - [License](#license)
-
-Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
+<!-- Added by: runner, at: Sat Mar 27 11:16:28 UTC 2021 -->
 
 <!--te-->
 
