@@ -1,6 +1,6 @@
 package math
 
-//MinInt64 get the min int vars
+//MinInt get the min int vars
 func MinInt(vars ...int) int {
 	min := vars[0]
 
@@ -26,7 +26,7 @@ func MinInt64(vars ...int64) int64 {
 	return min
 }
 
-//MaxInt64 get the max int vars
+//MaxInt get the max int vars
 func MaxInt(vars ...int) int {
 	max := vars[0]
 
@@ -50,4 +50,20 @@ func MaxInt64(vars ...int64) int64 {
 	}
 
 	return max
+}
+
+//AbsInt abs int
+func AbsInt(abs int) int {
+	if abs < 0 {
+		return 0 - abs
+	}
+	return abs
+}
+
+//AbsInt64 abs int64
+func AbsInt64(abs int64) int64 {
+	if abs < 0 {
+		return 0 - abs
+	}
+	return abs
 }

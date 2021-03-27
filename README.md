@@ -9,15 +9,21 @@
 
 Golang utils for me.
 
+## 目录
+
 ---
 
+<!--ts-->
+
 - [go-utils](#go-utils)
-  - [Install](#install)
-  - [Usage](#usage)
-    - [Math](#math)
-  - [License](#license)
+    - [Install](#install)
+    - [Usage](#usage)
+        - [Math](#math)
+    - [License](#license)
 
 Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
+
+<!--te-->
 
 ---
 
@@ -37,11 +43,18 @@ Something.
 - `MinInt64(vars ...int64)` // get the min int64 vars
 - `MaxInt(vars ...int)` // get the max int vars
 - `MaxInt64(vars ...int64)` // get the max int64 vars
+- `AbsInt(abs int) int` // abs int
+- `AbsInt64(abs int64) int64` // abs int64
+
+### Leetcode
+
+- `GenerateTree(treeList []interface{})` // generate leetcode tree
+- `GenerateList(list []int)` // generate leetcode list
+- `LoopEqualList(t *testing.T, head *ListNode, list []int)` // test diff list and array
+- `DeepEqualTree(t *testing.T, head, right *TreeNode)` // test recursion diff tree
 
 ## License
 
-This project is licensed under the MIT License.
-See the [LICENSE](./LICENSE) file
-for the full license text.
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for the full license text.
 
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fyiranzai%2Fgo-utils.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fyiranzai%2Fgo-utils?ref=badge_large)
